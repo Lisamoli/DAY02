@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by anonymous (http://jsbin.com/zunadevazo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+<script id="jsbin-javascript">
+// JS 4
+
+let name = "Bob";
+if (name === "Bob") {
+  console.log("Hello Bob");
+} 
+else {
+  console.log("You're not Bob, go away!")
+}
+
+// JS 5
+// experiment 1
+
+const magicPassword = prompt("Magic Password ?");
+console.log(magicPassword);
+
+
+if(magicPassword === "Coucou"){
+console.log("Welcome! 👋");}
+
+else{
+	console.log("Wrong password ❌");
+}
+
+// experiment 2
+
+
+const age = prompt("How old are you?");
+
+console.log(typeof(age));
+
+
+
+if (age < 3) {
+
+console.log("Hello, Baby 🍼!");
+
+}
+
+else if(age < 18) {
+
+console.log("Hi! 👋");
+
+}
+
+else if(age < 100) {
+
+console.log("Greetings 🖖");
+
+}
+
+else {
+
+console.log("Wow... 😲")
+
+}
+// JS 6 
+
+function coucouMaman(name){
+  console.log( "salut" + name);
+  }
+coucouMaman("Sylvie");
+
+//JS 7 
+
+const animales = ["Tigre", "Lion", "Ours"];
+console.log(animales[0]); // Will print "Tigre"
+console.log(animales[1]); // Will print "Lion"
+console.log(animales[2]); // Will print "Ours'
+fruits[0] = "Panda"; // Will change the first element to Panda
+console.log(fruits[0]); // Will print "Panda"
+
+animales.push("Chat");
+console.log(animales);
+
+animales.unshift('Chien');
+console.log(animales);
+
+animales.pop();
+console.log(animales);
+
+// JS 8 
+
+for (let i = 0; i < 10; i++) {
+  console.log(`Number ${i}`);
+}
+
+for(let i = 0; i < animals.length; i++){
+  console.log(animals[i]);
+}
+
+// JS 9
+
+const billyTheCat = {
+  name: "Billy", 
+  color:"Ginger",
+  favouriteFoods: ["Fish", "Chicken"],
+  isHungry: false,
+  meow: function(){
+    console.log("Meooow")
+  }
+  }
+  delete billyTheCat.color;
+  console.log(billyTheCat);
+  
+</script>
+</body>
+</html>
